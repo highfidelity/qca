@@ -1,3 +1,5 @@
+set(CMAKE_PREFIX_PATH CMAKE_PREFIX_PATH $ENV{QT_CMAKE_PREFIX_PATH})
+
 # Checking for user explicity defined CMAKE_INSTALL_PREFIX
 # It must be done before project(...)
 if(NOT CMAKE_INSTALL_PREFIX)
